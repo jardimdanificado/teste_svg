@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Formas uma por vez - de baixo pra cima</title>
+  <title>loft caju</title>
   <style>
     svg {
       width: 400px;
@@ -250,7 +250,7 @@ shapes.sort((a, b) => a.getBBox().y - b.getBBox().y);
 shapes.forEach((el, i) => {
   setTimeout(() => {
     el.style.visibility = "visible";
-  }, i * 100); // 1s por elemento
+  }, i * 100); // 100ms por elemento
 });
 </script>
 
